@@ -48,5 +48,10 @@ document.getElementById("resumeForm")?.addEventListener("submit", function(event
 
 document.getElementById("name")?.addEventListener("input", generateResume);
 document.getElementById("phone")?.addEventListener("input", generateResume);
-// Repeat for other fields...
+document.getElementById("picture")?.addEventListener("input", generateResume);
+document.getElementById("email")?.addEventListener("input", generateResume);
+document.getElementById("address")?.addEventListener("input", generateResume);
+document.getElementById("skills")?.addEventListener("input", generateResume);
+document.getElementById("education")?.addEventListener("input", generateResume);
+document.getElementById("experience")?.addEventListener("input", generateResume);
 })
