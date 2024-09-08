@@ -43,5 +43,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     (_b = document.getElementById("name")) === null || _b === void 0 ? void 0 : _b.addEventListener("input", generateResume);
     (_c = document.getElementById("phone")) === null || _c === void 0 ? void 0 : _c.addEventListener("input", generateResume);
-    // Repeat for other fields...
+      (_d = document.getElementById("picture")) === null || _d === void 0 ? void 0 : _d.addEventListener("input", generateResume);
+    (_e = document.getElementById("email")) === null || _e === void 0 ? void 0 : _e.addEventListener("input", generateResume);
+    (_f = document.getElementById("address")) === null || _f === void 0 ? void 0 : _f.addEventListener("input", generateResume);
+    (_g = document.getElementById("skills")) === null || _g === void 0 ? void 0 : _g.addEventListener("input", generateResume);
+    (_h = document.getElementById("education")) === null || _h === void 0 ? void 0 : _h.addEventListener("input", generateResume);
+    (_j = document.getElementById("experience")) === null || _j === void 0 ? void 0 : _j.addEventListener("input", generateResume);
 });
