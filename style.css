@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+        font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #fff8f0;
 }
@@ -26,13 +26,6 @@ body {
     padding: 15px;
     font-size: x-large;
 }
-.inputname{
-    color: #92140c;
-    font-size: larger;
-    margin-left: 20px;
-    padding-top: 30px;
-    text-decoration:solid;
-}
 .forpic{
     color: #92140c;
 }
@@ -43,7 +36,6 @@ input[type="file"]{
     background-color:#ffcf99 ;
     border-radius: 30px;
     margin-top: 20px;
-
 }
 input[type="file"]::file-selector-button{
     background-color:#92140c;
@@ -76,27 +68,40 @@ input, textarea {
     font-size: 14px;
     border-color: #92140c;
     border-width: 3px;
-    
 }
-    
-#resume {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        border-radius: 8px;
-        text-align: center;
-    border: 3px solid #92140c;
-    color: #92140c;
-    padding: 20px;
-    border-radius: 8px;
-    background-image: url(https://i.pinimg.com/736x/1d/3b/91/1d3b9104c9214dd258807cdd8d3192b8.jpg);
-}
+
 .resumeinfo{
     background-color: beige;
     color: #92140c;
     text-align: center;
 }
-
+#generatedResume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #92140c;
+    padding: 20px;
+    font-size: x-large;
+    border-radius: 8px;
+    background-image: url(https://i.pinimg.com/736x/1d/3b/91/1d3b9104c9214dd258807cdd8d3192b8.jpg);
+}
+button{
+    color: #92140c;
+    font-size: larger;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    text-decoration:solid;
+    background-color: #92140c;
+    border-radius: 30px;
+    background-color: #92140c;
+    color: white;
+    font-size: large;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
 h2, p {
     margin: 10px 0;
 }
@@ -106,6 +111,11 @@ img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
+}
+
+#workSkill{
+    font-size: x-large;
+
 }
 
 @media (max-width: 600px) {
